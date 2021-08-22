@@ -13,8 +13,9 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5rem 1rem 5rem;
+    padding: 1rem 10rem 1rem 10rem;
     background-color: white;
+    box-shadow: 0 0 5px grey;
 }
 nav .logo{
     text-transform: uppercase;
@@ -44,5 +45,18 @@ nav .logo span{
     text-decoration: none;
 }
 .menu .menu-items ul a:hover{
+    color: #c41b1b;
+}
+
+.menu .menu-actions{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.menu .menu-actions i{
+    margin: 0 .5rem;
+}
+
+.menu .menu-actions i:hover{
     color: #c41b1b;
 }
